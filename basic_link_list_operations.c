@@ -20,8 +20,8 @@ int main(void)
 	
 	head = malloc(sizeof(struct node));
 	input_data(&head);
-    second = malloc(sizeof(struct node));
-    third = malloc(sizeof(struct node));
+        second = malloc(sizeof(struct node));
+        third = malloc(sizeof(struct node));
 	
 	head->data = 1;
 	head->next = second;
