@@ -10,7 +10,7 @@ struct node
 void traverse(struct node *);  
 int list_count(struct node *);
 void push_node(struct node **, int);
-int pop(struct node **);
+void delete_first_node(struct node **);
 void input_data(struct node **);
 
 int main(void)
@@ -35,20 +35,23 @@ int main(void)
 	push_node(&head, 24);
 	push_node(&head, 30);
 	traverse(head);
-	popped_value = pop(&head);
-	printf("\nPopped value:%d", popped_value);
+	
 	count = list_count(head);
-	printf("\n%d\n", count);
+	printf("\n\nCount before deletion:%d\n", count);
+    delete_first_node(&head);
+	//printf("\nPopped value:%d", popped_value);
+	count = list_count(head);
+	printf("Count after deletion of first node:%d\n\n", count);
 	return 0;
   }
 
-int pop(struct node **head)
+void delete_first_node(struct node **head)
   {
 	  struct node *ptr = *head;
 	  int data = ptr->data;
 	  *head = ptr->next;
 	  free(ptr);
-	  return data;
+	  //return data;
   }
 
 void push_node(struct node **head, int data)
