@@ -38,7 +38,7 @@ int main(void)
 	
 	count = list_count(head);
 	printf("\n\nCount before deletion:%d\n", count);
-    delete_first_node(&head);
+        delete_first_node(&head);
 	//printf("\nPopped value:%d", popped_value);
 	count = list_count(head);
 	printf("Count after deletion of first node:%d\n\n", count);
@@ -68,9 +68,9 @@ void traverse(struct node *current)
   {
 	  while(current != NULL)
 	    {
-			printf("\nData: %d", current->data);
-			current = current->next;
-		}
+		printf("\nData: %d", current->data);
+		current = current->next;
+	    }
   }
 
 void input_data(struct node **current)
