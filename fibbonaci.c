@@ -1,3 +1,6 @@
+/*Enter the element number n and get the 
+  fibbonaci series result for the nth element*/
+
 #include<stdio.h>
 #include<stdlib.h>
 
