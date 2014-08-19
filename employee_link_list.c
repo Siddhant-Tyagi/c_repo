@@ -1,3 +1,5 @@
+/*link list implementation to store employee data*/
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
