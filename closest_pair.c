@@ -1,3 +1,25 @@
+/*Closest Pair
+ * Given n(2<=n<=1000) points in a 1-dimensional array, find
+ * the distance between the closest pair of points.
+ * You need to fill the logic in a function which takes as input
+ * an integer n and an integer array p[] for 0<=i<n,-10^9),
+ * containing n points and sets the output variable to the distance
+ * between the closest pair of points.
+ * 
+ * Example:
+ * Input:
+ * 5 {10,2,-4,5,29}
+ * 
+ * Output:
+ * 3
+ * 
+ * Explanation:
+ * In the above example, distance between 2 and 5 is 3,
+ * distance between all the other points is greater than 3. So,
+ * distance between closest pair is 3.
+ */
+
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
