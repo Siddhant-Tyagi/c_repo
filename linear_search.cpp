@@ -3,8 +3,8 @@
 
 int main()
  {
-	std::vector<int> input;
-	int len, temp, pos=-1, element;
+    std::vector<int> input;
+    int len, temp, pos=-1, element;
     std::cout << "Enter the number of elements: ";
     std::cin >> len;
     for(int i=0;i<len;i++)
