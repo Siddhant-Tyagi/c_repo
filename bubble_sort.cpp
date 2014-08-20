@@ -3,10 +3,10 @@
 
 int main()
  {
-	std::vector<int> input;
-	std::vector<int>::const_iterator it;
-	int len, temp;
-	std::cout << "Enter the number of elements: ";
+    std::vector<int> input;
+    std::vector<int>::const_iterator it;
+    int len, temp;
+    std::cout << "Enter the number of elements: ";
     std::cin >> len;
     for(int i=0;i<len;i++)
      {
