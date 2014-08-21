@@ -23,12 +23,13 @@ int main()
 		 }
 		arr[j+1] = tmp;
 	 }
-	std::cout << std::endl << std::endl; 
+	std::cout << std::endl << std::endl << "Sorted Array:  ";
 	std::vector<int>::const_iterator iter;
 	for(iter=arr.begin();iter!=arr.end();iter++)
 	 {
-		std::cout << (*iter) << std::endl;
+		std::cout << (*iter) << "     ";
 	 }
 	 
+	std::cout << std::endl;
 	return 0;
  }
