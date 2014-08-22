@@ -1,3 +1,11 @@
+/*To add any two binary numbers provide the two binary numbers as
+the command line arguments seprated by a space. For example:
+
+./binary_addition 111 101
+
+The above would give you the result of addition in
+binary*/
+
 #include <iostream>
 #include <vector>
 #include <cstdlib>
