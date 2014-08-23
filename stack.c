@@ -59,6 +59,7 @@ int main(void)
   }
 
 
+//this function performs the pop operation on the top of the stack
 void pop_node(struct stack **head)
   {
 	  struct stack *current = *head;
@@ -72,7 +73,8 @@ void pop_node(struct stack **head)
 	  *head = current->next;
 	  free(current);
   }
-
+  
+//the function traverse the nodes present in the given stack
 void traverse(struct stack *head)
   {
 	  struct stack *current = head;
@@ -83,7 +85,8 @@ void traverse(struct stack *head)
 			current = current->next;
 	    }
   }
-
+  
+//the function performs the push operation on the top of the stack 
 void push_node(struct stack **head)
   {
 	  struct stack *NewNode = malloc(sizeof(struct stack));
