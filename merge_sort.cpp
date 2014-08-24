@@ -53,8 +53,8 @@ void merge_sort(std::vector<int>& arr, int p, int q, int r)
 	 {
 		right.push_back(arr[q+j+1]);
 	 }
-	left.push_back(99999999);
-	right.push_back(99999999);
+	left.push_back(99999999);    //infinity assumed to be 99999999
+	right.push_back(99999999);   //infinity assumed to be 99999999
 	int i = 0, j = 0;
 	for(int k=p;k<r;k++)
 	 {
