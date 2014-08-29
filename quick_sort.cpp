@@ -1,3 +1,4 @@
+//Quick Sort with average running time of O(n log n)
 #include <iostream>
 #include <vector>
 #include <cstdlib>
