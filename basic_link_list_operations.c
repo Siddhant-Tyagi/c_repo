@@ -39,7 +39,6 @@ int main(void)
 	count = list_count(head);
 	printf("\n\nCount before deletion:%d\n", count);
         delete_first_node(&head);
-	//printf("\nPopped value:%d", popped_value);
 	count = list_count(head);
 	printf("Count after deletion of first node:%d\n\n", count);
 	return 0;
@@ -51,7 +50,6 @@ void delete_first_node(struct node **head)
 	  int data = ptr->data;
 	  *head = ptr->next;
 	  free(ptr);
-	  //return data;
   }
 
 void push_node(struct node **head, int data)
