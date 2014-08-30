@@ -1,3 +1,5 @@
+//Insertion sort implementation.
+//Worst case and average running time of O(n^2)
 #include <iostream>
 #include <vector>
 
