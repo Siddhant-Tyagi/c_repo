@@ -96,7 +96,6 @@ void push_node(struct employee **head)
 
 void input_data(struct employee **current)
   {
-	  //struct employee *ptr = *current;
 	  
 	  struct employee *ptr = *current;
 	  char *temp;
