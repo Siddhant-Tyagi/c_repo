@@ -110,7 +110,8 @@ void input_data(struct stack **current)
 	  temp = NULL;
   }
 	
-	  
+
+//the function allocates the memory according to the user's input	  
 char *getln()
   {
 	  char *line = NULL, *tmp = NULL;
