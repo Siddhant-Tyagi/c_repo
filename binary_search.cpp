@@ -1,3 +1,5 @@
+//for binary search to work, the array needs to be sorted
+//we use bubble sort to sort the array here
 #include <iostream>
 #include <vector>
 
