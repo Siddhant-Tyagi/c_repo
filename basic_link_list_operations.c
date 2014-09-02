@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -52,6 +53,7 @@ void delete_first_node(struct node **head)
 	  free(ptr);
   }
 
+//push the new node at the start of the link list
 void push_node(struct node **head, int data)
   {
 	  struct node *NewNode = malloc(sizeof(struct node));
@@ -61,7 +63,7 @@ void push_node(struct node **head, int data)
 	  *head = NewNode;
   }
 	  
-
+//traverse all the nodes in the given link list
 void traverse(struct node *current)
   {
 	  while(current != NULL)
@@ -71,12 +73,14 @@ void traverse(struct node *current)
 	    }
   }
 
+//inputs the data in the link list node
 void input_data(struct node **current)
   {
 	  struct node *ptr = *current;
 	  ptr->data = 29;
    }
-  
+
+//counts the number of nodes in the link list  
 int list_count(struct node * head)
   {
 	  struct node *ptr = head;
