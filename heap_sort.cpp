@@ -11,7 +11,6 @@ int main()
  {
 	int temp;
 	std::vector<int> arr;
-	//std::cout << "\nFirst ele: " << arr[0] << std::endl;
 	std::cout << "\nEnter the elements to build the heap. " << std::endl;
 	char choice[10] = "yes";
 	while(choice[0]=='y' || choice[0]=='Y')
@@ -23,7 +22,6 @@ int main()
 		std::cin >> choice;
 	 }
 	heapsort(arr);
-	//build_max_heap(arr);
 	std::cout << "\nSorted Array:   ";
 	traverse(arr);
 	return 0;
