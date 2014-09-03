@@ -96,6 +96,7 @@ void push_node(struct stack **head)
 	  *head = NewNode;
   }
   
+//the function inputs the data in the current node of the link list
 void input_data(struct stack **current)
   {
 	  struct stack *ptr = *current;
