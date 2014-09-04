@@ -1,3 +1,4 @@
+//calculating factorial through recursion
 #include<stdio.h>
 #include<stdlib.h>
 
